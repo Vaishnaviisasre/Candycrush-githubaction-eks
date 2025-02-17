@@ -9,7 +9,7 @@ on:
 jobs:
   build-analyase-scan:
     name: Build
-    runs-on: [Linux]
+    runs-on: [aws-netflix, Linux, self-hosted]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
